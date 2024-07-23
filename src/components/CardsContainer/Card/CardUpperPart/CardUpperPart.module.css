@@ -1,0 +1,88 @@
+.cardUpperPart {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.avatarContainer {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.5);
+}
+
+.nameContainer {
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.name {
+    width: 100%;
+    height: 30%;
+    margin: 0;
+    font-family: 'Geometria-Medium';
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.colorRatingContainer {
+    height: 30%;
+    width: 100%;
+    margin-bottom: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.color{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.ratingImg {
+    width: 10px;
+    height: 10px;
+    margin-left: 11px
+}
+
+.rating {
+    font-family: 'Geometria-Medium';
+    font-weight: 500;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.removeBtnContainer {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.removeBtn {
+    height: 30px;
+    width: 30px;
+    background: url(../../../../assets/delete.png) no-repeat center;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.07);
+}

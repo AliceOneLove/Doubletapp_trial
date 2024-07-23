@@ -1,0 +1,27 @@
+.li, .currLi {
+    height: 15%;
+    width: 95%;
+    border-radius: 5px;
+}
+
+.currLi {
+    background: url('../../../assets/Check.png') no-repeat scroll 90% 50%;
+}
+
+.optionBtn, .currOptionBtn {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: none;
+    text-align: left;
+    border-radius: 5px;
+    padding-left: 10%;
+}
+
+.currOptionBtn {
+    background-color: rgba(73, 194, 232, 0.11);
+}
+
+.optionBtn:hover {
+    background-color: rgba(73, 194, 232, 0.11);
+}

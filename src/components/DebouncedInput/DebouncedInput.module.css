@@ -1,0 +1,26 @@
+.input, .mobileInput {
+    border: none;
+    height: 100%;
+    background: url('../../assets/searchIcon.png') no-repeat scroll 20px 50%;
+    box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.07);
+    font-family: 'Geometria';
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding-left: 55px;
+    margin-left: 2px;
+}
+
+.input {
+    max-width: 80%;
+    min-width: 77%;
+}
+
+.mobileInput {
+    max-width: 62%;
+}
+
+.input:focus, .mobileInput:focus {
+    outline: none;
+}

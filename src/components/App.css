@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Geometria';
+    src: url('../fonts/Geometria.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Geometria-Bold';
+    src: url('../fonts/Geometria-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Geometria-Medium';
+    src: url('../fonts/Geometria-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Geometria-Bold1';
+    src: url('../fonts/geometria_bold.otf') format('truetype');
+}
+@font-face {
+    font-family: 'Geometria-Medium1';
+    src: url('../fonts/geometria_medium.otf') format('truetype');
+}
+
+body {
+    margin: 0;
+}
+
+.App {
+    height: 100svh;
+    width: 100svw;
+}
