@@ -26,7 +26,9 @@ const DropDownSort = ({ sorting, setSorting }: DropDownSortProps) => {
     { label: 'Сначала моложе', id: 'birthday', desc: true },
     { label: 'Сначала старше', id: 'birthday', desc: false },
     { label: 'Высокий рейтинг', id: 'rating', desc: true },
-    { label: 'Низкий рейтинг', id: 'rating', desc: false }
+    { label: 'Низкий рейтинг', id: 'rating', desc: false },
+    { label: 'Цвет А-Я', id: 'color', desc: false },
+    { label: 'Цвет Я-А', id: 'color', desc: true }
   ];
 
   return (

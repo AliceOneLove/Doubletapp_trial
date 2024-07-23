@@ -61,7 +61,7 @@ export const COLUMNS = [
         id: 'color',
         cell: info => <div className={styles.color} style={{backgroundColor: info.getValue()}}></div>,
         header: '',
-        enableSorting: false,
+        // enableSorting: false,
     }),
     columnHelper.display({
         id: 'remove',
